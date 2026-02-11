@@ -11,6 +11,6 @@ dependencies:
   - pyparsing
   - trame
   - vtk
-  - trame-vtk<=2.10.3
+  - trame-vtk<2.10.3
   - trame-vuetify
   - nest-asyncio2
