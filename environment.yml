@@ -1,0 +1,10 @@
+name: book-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyter-book<2.0
+  - python<3.14  # som pyvista incompatibility issues with python 3.14
+  - fenics-dolfinx
+  - festim=2.0b1
+  - pyvista
