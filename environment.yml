@@ -4,7 +4,13 @@ channels:
   - defaults
 dependencies:
   - jupyter-book<2.0
-  - python<3.14  # som pyvista incompatibility issues with python 3.14
-  - fenics-dolfinx
-  - festim=2.0b1
+  - python<3.14 # som pyvista incompatibility issues with python 3.14
   - pyvista
+  - jupyter
+  - sphinx-codeautolink
+  - pyparsing
+  - trame
+  - vtk
+  - trame-vtk<=2.10.3
+  - trame-vuetify
+  - nest-asyncio2
